@@ -1,0 +1,93 @@
+---
+layout: default
+title: Parade Volunteers
+---
+{% include special_roles.html %}
+
+<div class="row my-3">
+    <div class="col">
+        <h1>Oakland Pride Parade Volunteers</h1>
+        <p>Our parade is largely produced by a dedicated team of volunteers who continue to show up year-after-year to help organize this wonderful event!</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <a href="https://turnoutinc.volunteerlocal.com/volunteer/?id=90544" target="_blank" class="btn btn-dark btn-lg">Sign Up to Volunteer</a>
+    </div>
+</div>
+<div class="row g-2 d-none">
+    <div class="col-12">
+        <h2>Volunteer Positions</h2>
+    </div>
+    {% for position in site.data.volunteer_positions %}
+    <div class="col col-12 col-md-6 col-xl-3">
+        <div class="card border-success">
+            <div class="card-body">
+                <h3 class="card-title placeholder-glow">{{position.name}}{% if position.name == blank?%}<span class="placeholder col-6"></span>{% endif %}</h3>
+                <p class="card-text placeholder-glow">{{position.desc}}{% if position.desc == blank? %} <span class="placeholder col-7"></span><span class="placeholder col-4"></span><span class="placeholder col-4"></span><span class="placeholder col-6"></span><span class="placeholder col-8"></span>{% endif %}</p>
+                <a href="{{position.link}}" target="_blank" class="btn btn-primary {% if position.link == blank? %}disabled placeholder{% endif %}">Sign Up</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<div class="row mt-5">
+    <div class="col">
+        <h2>Volunteer Position Descriptions</h2>
+        <p>Volunteers should check in at the festival site and collect their t-shirt before reporting for their parade shifts.</p>
+        <p>The majority of the assembly area, parade route, and dispersal area is in the sun, entirely unshaded and unshielded from wind. Please wear sunscreen and comfortable close-toed shoes and bring a hat and sunglasses. The weather can often be quite warm in the sun, and quite cold in the wind and shade. The weather can change quickly, come prepared!</p>
+    </div>
+</div>
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    <div class="col">
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">Arrival Volunteers</h3>
+                <p class="card-text">9:45am until Noon</p>
+                <p class="card-text"><strong>Arrival volunteers</strong> will work in four teams of two, one on each of the assembly blocks.</p>
+                <p class="card-text">These teams of two will greet people as they enter the assembly area, verify their order and assembly zone by looking at the order information displayed on the participant's phone, and then direct them to where they should assemble.</p>
+                <p class="card-text">Order placards should be distributed to the first group or individual that checks in for a contingent.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <div class="card-body">
+                <h3>Assembly Volunteers</h3>
+                <p>10:00am until the last contingent leaves the assembly area (~1pm)</p>
+                <p class="card-text"><strong>Assembly volunteers</strong> will roam the assembly area, ensuring that contingents are in the proper order, and staying on the correct side of the street.</p>
+                <p>Working in teams volunteers will use rope to guide and gently form contingents into manageable shape, ensuring the center of the roadway is free for emergency vehicles and for contingents to move through into their correct position</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <div class="card-body">
+                <h3>Step-Off Volunteers</h3>
+                <p class="card-text">10:00am until last contingent steps off (~1pm)</p>
+                <p class="card-text"><strong>Step-off volunteers</strong> will work to move the contingents to the step off position at the appropriate time.</p>
+                <p class="card-text">Each zone of the assembly area is divided into two halves: A1 and A2, B1 and B2, and so forth. Once A1 has been launched onto the route, while A2 is stepping off, B1 will move forward into the position previously occupied by A1, and C1 into the position previously occupied by B1, and so forth.</p>
+                <!-- <p>Watch this video for an example:</p> -->
+                <!-- <video class="img-fluid " src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4" controls</video> -->
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <div class="card-body">
+                <h3>Dispersal Volunteers</h3>
+                <p class="card-text">10:45am until end of parade (~2pm)</p>
+                <p class="card-text"><b>Dispersal volunteers</b> will stand on Broadway Street around 20th Street. Volunteers will direct the flow of traffic using the following guidelines:</p>
+                <ol>
+                    <li>contingents leaving the site proceed down Broadway and turn left on 13th.</li>
+                    <li>marchers entering the festival turn right on 12th.</li>
+                    <li>vehicles letting people off stop on the right side of Broadway in between 12th and 13th, and then exit to the left on 13th</li>
+                </ol>
+                <p class="card-text">There are very few exceptions, use your best judgement, escalate issues on the radio.</p>
+                <a href="/parade#dispersal" class="card-link">contingent dispersal instructions</a>
+            </div>
+        </div>
+    </div>
+</div>  

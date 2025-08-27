@@ -1,0 +1,88 @@
+---
+layout: default
+---
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h2 class="h1"><strong>Contingent:</strong> {{page.name}}</h2>
+        </div>
+    </div>
+    <div class="row text-center align-items-center justify-content-evenly">
+        <div class="col">
+            <div class="alert border border-1 border-dark">
+                <p><strong class="h1">{{page.order}}</strong><br>lineup #</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="alert alert-info border border-info">
+                <p><strong class="h1">{{page.zone}}</strong><br>assembly zone</p>
+            </div>
+        </div>
+        <div class="col col-12 col-md-auto">
+            <div class="alert border border-1 border-dark">
+                <p><strong class="h1">{{page.time}} </strong><br>lineup time</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row text-center justify-content-evenly align-items-center">
+        <div class="col border border-2 m-1">
+            <h3>{%if page.marchers == '' %}??{% endif %}{{page.marchers}}<br>MARCHERS</h3>
+        </div>
+        <div class="col border border-2 m-1">
+            <h3>{%if page.basic_vehicle == '' %}0{% endif %}{{page.basic_vehicle}}<br>B. VEHICLES</h3>
+        </div>
+        <div class="col border border-2 m-1">
+            <h3>{%if page.large_vehicle == '' %}0{% endif %}{{page.large_vehicle}}<br>L. VEHICLES</h3>
+        </div>
+        <!-- <div class="col border border-2 m-1">
+            <h2>{{page.monitors}}<br>MONITORS</h2>
+        </div> -->
+    </div>
+    <div class="row">
+        <div class="col text-muted small">
+            {%if page.sound == '' %}
+            <p><em>no amplified sound</em></p>
+            {% endif %}
+            {% if page.sound == '1' %}
+            <p>amplified sound: speaking or singing</p>
+            {% endif %}
+            {% if page.sound == '2' %}
+            <p>amplified sound: loud music</p>
+            {% endif %}
+            {% if page.sound == '3' %}
+            <p>amplified sound: very loud music</p>
+            {% endif %}
+        </div>
+    </div>
+    <div class="row my-3">
+        <div class="col text-center">
+            <p><span class="lead fw-bold">Please be fully assembled and ready to march by the lineup time above!</span><br>
+            This is not the time your group will "step off" onto the route.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            {% include marsha.html %}
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col">
+            {{content}}
+        </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 text-center justify-content-evenly align-items-center">
+        <div class="col">
+            {% include assembly_map.html %}
+        </div>
+        <div class="col">
+            {% include parade_map.html %}
+        </div>
+        <div class="col">
+            {% include festival_map.html %}
+        </div>
+    </div>
+</div>

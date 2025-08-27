@@ -1,0 +1,26 @@
+---
+layout: contingent
+order: 068
+zone: D1
+time: '10:45 AM'
+name: Jewish Community Center of the East Bay
+category: Nonprofit
+marchers: '40'
+sound: ''
+permalink: c/hIssN
+basic_vehicle: ''
+large_vehicle: ''
+description: >-
+  Our vision is to be a geographically accessible home that provides
+  high-quality programs and gathering spaces throughout the East Bay to
+  advance, nurture, and evolve Jewish communal life and contribute to the
+  vitality of the broader community.
+honor: ''
+email: sarahwr@jcceastbay.org
+contact: Sarah Wolfman-Robichaud
+phone: 510-292-7466
+website: 'https://jcceastbay.org/'
+facebook: 'https://www.facebook.com/jcceastbay/'
+instagram: 'https://www.instagram.com/jcceastbay/'
+twitter: ''
+---

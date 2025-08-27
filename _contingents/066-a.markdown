@@ -1,0 +1,27 @@
+---
+layout: contingent
+order: '066'
+zone: D1
+time: '10:45 AM'
+name: East Bay Bada Group
+category: Sponsor
+marchers: '100'
+sound: ''
+permalink: c/-pIQk
+basic_vehicle: ''
+large_vehicle: ''
+description: >-
+  The Bay Area Directors of Admission (BADA) group exists to support families
+  and schools in the admission process by promoting best practices. Members
+  agree to collaborate in the process of implementing best practices that
+  support smooth, respectful, and predictable admission experiences for both
+  families and schools.
+honor: ''
+email: kweekes@headroyce.org
+contact: Kathrina Weekes
+phone: 510-207-8140
+website: 'https://www.issfba.org/'
+facebook: ''
+instagram: ''
+twitter: ''
+---

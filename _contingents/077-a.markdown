@@ -1,0 +1,31 @@
+---
+layout: contingent
+order: '077'
+zone: D2
+time: '10:45 AM'
+name: UCOP Pride
+category: Nonprofit
+marchers: '20'
+sound: ''
+permalink: c/39PG6
+basic_vehicle: ''
+large_vehicle: ''
+description: >-
+  UCOP Pride is dedicated to providing advocacy, education and
+  community-building for the lesbian, gay, bisexual, transgender, queer,
+  intersex, genderqueer and non-binary community, and its allies, within UCOP
+  and beyond. UCOP Pride works to build community and solidarity among LGBTQIA
+  staff and allies at UCOP, engage and inspire LGBTQIA individuals who work at
+  UCOP, achieve greater inclusivity for the LGBTQIA community at UCOP and
+  increase resources and broaden the base of support for LGBTQIA communities
+  by improving UCOP‚ Äôs awareness and understanding of LGBTQIA issues, needs
+  and opportunities.
+honor: ''
+email: liz.terry@ucop.edu
+contact: Liz Terry
+phone: 510-847-8157
+website: ''
+facebook: ''
+instagram: ''
+twitter: ''
+---

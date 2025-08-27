@@ -1,0 +1,22 @@
+---
+layout: default
+title: all pages
+---
+{% if jekyll.environment == "development" %}
+<div class="row">
+    <div class="col">
+        <hr class="bg-dark p-1 rounded">
+        <p>this site contains the following files:</p>
+<ul>
+    {% for page in site.pages %}
+        <li><a href="{{ page.url }}">{{ page.url }}</a></li>
+    {% endfor %}
+</ul>
+    </div>
+</div>
+{% endif %}
+<div class="row">
+    <div class="col text-center bg-secondary-subtle">
+        <h1 class="display-1 text-primary fw-bolder">ALL ONE!</h1>
+    </div>
+</div>

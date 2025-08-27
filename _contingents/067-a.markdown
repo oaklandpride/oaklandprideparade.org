@@ -1,0 +1,30 @@
+---
+layout: contingent
+order: '067'
+zone: D1
+time: '10:45 AM'
+name: Oakland Roots
+category: Nonprofit
+marchers: 20-50
+sound: '1'
+permalink: c/jkD6i
+basic_vehicle: '1'
+large_vehicle: ''
+description: >-
+  Oakland Roots SC is a professional soccer team based in Oakland, California.
+  Founded in 2018, the team represents the vibrant and diverse community of
+  Oakland with a commitment to inclusivity and social justice. Competing in
+  the USL Championship, the Roots are known for their passionate fan base,
+  distinctive local culture, and dedication to making a positive impact both
+  on and off the field. With a strong focus on community engagement and a
+  dynamic, energetic playing style, the Oakland Roots are a proud symbol of
+  the city’s spirit and resilience.
+honor: ''
+email: emiranda@rootssc.com
+contact: 'Eddie Miranda '
+phone: '6504684093'
+website: ''
+facebook: ''
+instagram: ''
+twitter: ''
+---

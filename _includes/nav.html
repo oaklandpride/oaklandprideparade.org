@@ -1,0 +1,44 @@
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <div class="text-center">
+                <a id="title_button" href="/" class="text-decoration-none link-primary"><h1 class="font-bungeeshade" style="font-size:5vw;">{{site.title}}</h1></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col mx-auto navbar-expand">
+            <nav class="navbar bg-primary navbar-dark rounded justify-content-evenly">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item border-end"><a href="/" class="nav-link link-light"><i class="bi bi-house-fill"></i> Home</a></li>
+                    <li class="nav-item border-end"><a href="/registration" class="nav-link link-light"><i class="bi bi-award"></i> Register<span class="d-none d-md-inline"> for Parade</span></a></li>
+                    <li class="nav-item border-end"><a href="/parade" class="nav-link link-light"><i class="bi bi-stoplights-fill"></i><span class="d-none d-md-inline">Parade</span> Info</a></li>
+                    <!-- <li class="nav-item border-end"><a href="/sms" class="nav-link link-light"><i class="bi bi-chat-heart-fill"></i> <span class="d-none d-md-inline">Get </span>SMS</a></li> -->
+                    <li class="nav-item border-end d-none d-lg-inline"><a href="/leads" class="nav-link link-light"><i class="bi bi-person-badge-fill"></i> <span class="d-none d-md-inline">Contingent</span> Leads</a></li>
+                    <li class="nav-item border-end d-none d-lg-inline"><a href="/monitors" class="nav-link link-light"><i class="bi bi-car-front-fill"></i></i> <span class="d-none d-md-inline">Wheel</span> Monitors</a></li>
+                    <li class="nav-item"><a href="/volunteers" class="nav-link link-light"><i class="bi bi-person-raised-hand"></i> Volunteers</a></li>
+                    <!-- <li class="nav-item border-end"><a href="/help" class="nav-link link-light"><i class="bi bi-mortarboard-fill"></i> Training</a></li> -->
+                    <!-- <li class="nav-item"><a href="https://eztxt.net/hPVbDI" target="_blank" rel="noopener" class="nav-link link-light"><i class="bi bi-chat-heart-fill"></i> <span class="d-none d-md-inline">Get </span>SMS</a></li> -->
+                    <!-- <li class="nav-item border-end"><a href="order" class="nav-link link-light"><i class="bi bi-list-ol"></i> Order</a></li> -->
+                    <!-- <li class="nav-item border-end"><a href="parade_order" class="nav-link link-light"><i class="bi bi-journal-arrow-down"></i> Broadcast</a></li> -->
+                </ul>
+                <!-- <span class="navbar-text">oaklandpride.org</span> -->
+                <span class="navbar-text ms-auto me-1 text-light d-none d-md-inline">check out <a href="https://oaklandpride.org" class="navbar-text link-light">oaklandpride.org</a></span>
+            </nav>
+            <div class="row mt-2">
+                <div class="col">
+                    <small class="badge bg-info-subtle text-dark">text support: <a class="link-dark" href="sms:+14152336990">(415) 233-6990</a></small>
+                    {% if jekyll.environment == "development" %}<small class="badge bg-dark ms-5"><a href="/all" class="link-light text-uppercase">S.D.L.T.O.P.</a></small>{% endif %}
+                </div>
+                <div class="col">
+                    <p class="text-end fw-bold"><span id="countdown">OAKLAND PRIDE</span></p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>  

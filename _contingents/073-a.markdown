@@ -1,0 +1,28 @@
+---
+layout: contingent
+order: '073'
+zone: D2
+time: '10:45 AM'
+name: SEIU 1021 – Lavender Committee
+category: Nonprofit
+marchers: 50+
+sound: ''
+permalink: c/HExb_
+basic_vehicle: ''
+large_vehicle: ''
+description: >-
+  THE SEIU LOCAL 1021 LAVENDER SOLIDARITY COMMITTEE: advocates for
+  Lesbian/Gay/Bisexual/Transgender (LGBT) rights within the union and at the
+  workplace. We work to educate union members and employers about issues of
+  sexual orientation and gender identity, and to make sure our concerns are
+  included in all aspects of union work, including contract bargaining,
+  workplace rights, healthcare benefits and political action.
+honor: ''
+email: Monique.Baca@seiu1021.org
+contact: Monique Baca
+phone: ''
+website: seiu1021.org
+facebook: ''
+instagram: ''
+twitter: ''
+---

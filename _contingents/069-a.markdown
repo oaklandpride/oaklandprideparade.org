@@ -1,0 +1,28 @@
+---
+layout: contingent
+order: 069
+zone: D1
+time: '10:45 AM'
+name: Samuel Merritt University
+category: Nonprofit
+marchers: '30'
+sound: ''
+permalink: c/QuiVg
+basic_vehicle: ''
+large_vehicle: ''
+description: >-
+  Samuel Merritt University is a local university that has been providing
+  health sciences education to students in the East Bay for over 100 years.
+  SMU is proud to educate future healthcare workers including nurses,
+  occupational therapists, social workers, and physical therapists who are
+  passionate about health equity and transforming communities.
+honor: ''
+email: salavi@samuelmerritt.edu
+contact: Sam Alavi
+phone: 650-229-4421
+website: >-
+  https://www.samuelmerritt.edu/centers-and-libraries/center-community-engagement/ethnic-health-institute
+facebook: 'https://www.facebook.com/SamuelMerrittU'
+instagram: 'https://www.instagram.com/samuelmerrittu/'
+twitter: ''
+---

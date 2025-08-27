@@ -1,0 +1,72 @@
+---
+layout: default
+title: Sign up for SMS Alerts
+published: false
+---
+<div class="row">
+  <div class="col">
+    <h2>Sign Up for Oakland Pride Parade SMS Alerts</h2>
+    <p>Join the 2024 Oakland Pride Parade Text List to receive important updates and information about the parade. You can opt out at any time by replying STOP to any message.</p>
+  </div>
+</div>
+<div class="mt-3">
+    <link rel="stylesheet" href="https://cdn.eztexting.com/assets/signup-forms/signup-forms-styles.min.css" type="text/css">
+  
+    
+  
+    <form class="c-web-form" ngNoForm method="POST" action="https://widgy-lb.prd.cfire.io/EZ/widget/subscribe" onsubmit="return false;">
+      <input type="hidden" name="serializedData" id="jwt" value="eyJlbmMiOiJBMTI4R0NNIiwiYnJhbmQiOiJFWiIsImFsZyI6ImRpciIsIndpZGdldElkIjoiNmY4MTE5YmEtZDVkYS00MWUzLTk3NWMtZDE3ZTViYzg2MzA3In0..qXluo2L1qgohQuiD.My4eiTewzFHhbHlcpp7rXMy4AwBo7cmYz2-zWWI7J0JqbSp4fRmkYt7n1R7rhRcg_3Rv96QsNuS_ErbTp6o-OpraV9knGTff6msckQ4szh08-ubrxwt5MfP-3IhIByh8m54SmDtlt-CGkc-BiGmCrbw-D3sNArzEPF4f5J1nEcTSugvxAh78i4ujK1ZhVAutqjdhn3JnrcXjeJFAFy30UeakaqyIIuBEECtYGJeT2Xhtaw.4LKdvUvuNmoz7Y0IEeNULw">
+      <div class="c-web-form__title">Join the 2024 Oakland Pride Parade Text List</div>
+      <div class="c-web-form__description"></div>
+      <ul class="c-web-form__be-errors"></ul>
+      <div>
+        <div class="c-web-form__control-group">
+          <label class="c-web-form__label c-web-form-uppercase-text" for="c-web-form-phoneNumber">Phone Number*</label>
+          <div class="c-web-form__error" id="c-web-form-phoneNumber-error"></div>
+          <input value="" class="c-web-form__input" type="tel" name="phoneNumber" id="c-web-form-phoneNumber" maxlength="20">
+        </div>
+      </div>
+      <div>
+        <div class="c-web-form__control-group">
+          <label class="c-web-form__label c-web-form-uppercase-text" for="c-web-form-firstName">First Name</label>
+          <div class="c-web-form__error"></div>
+          <input value="" class="c-web-form__input c-web-form-text-validate" type="text" name="firstName" id="c-web-form-firstName" maxlength="20">
+        </div>
+      </div>
+      <div>
+        <div class="c-web-form__control-group">
+          <label class="c-web-form__label c-web-form-uppercase-text" for="c-web-form-lastName">Last Name</label>
+          <div class="c-web-form__error"></div>
+          <input value="" class="c-web-form__input c-web-form-text-validate" type="text" name="lastName" id="c-web-form-lastName" maxlength="20">
+        </div>
+      </div>
+      <div>
+        <div class="c-web-form__control-group">
+          <label class="c-web-form__label c-web-form-uppercase-text" for="c-web-form-email">Email Address</label>
+          <div class="c-web-form__error" id="c-web-form-email-error"></div>
+          <input value="" class="c-web-form__input" type="email" name="email" maxlength="100" placeholder="email@example.com" id="c-web-form-email">
+        </div>
+      </div>
+      
+      
+      <div class="c-web-form__control-group">
+        <input class="c-web-form__checkbox" type="checkbox" id="c-web-form-agree" onchange="document.querySelector('.c-web-form__submit').toggleAttribute('disabled', !this.checked)">
+        <label class="c-web-form__label" for="c-web-form-agree">
+          By checking this box, you agree to receive text messages from San Francisco Pride.
+          Recurring messages subscription. Message and data rates may apply.
+          Reply HELP for help and STOP to opt out.
+        </label>
+      </div>
+      <div class="c-web-form__control-group">
+        <button type="submit" class="c-web-form__submit" disabled>Sign Up</button>
+      </div>
+      <p class="c-success-message">Thanks for joining, the Oakland Pride Parade is September 8th, 2024!</p>
+      <div class="c-web-form__footer">
+        SMS sharing disclosure: No mobile information will be shared with third parties/affiliates for marketing/promotional purposes at anytime.
+        <br><br>
+        <i>Powered by <span class="c-web-form-semibold-text">EZ Texting</span></i>
+      </div>
+    </form>
+    <script type="text/javascript" src="https://cdn.eztexting.com/assets/signup-forms/signup-forms-validation.min.js"></script>
+  </div>
+  

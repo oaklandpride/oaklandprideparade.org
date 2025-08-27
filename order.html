@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div class="row">
+    <div class="col">
+        <table class="table table-sm table-striped table-secondary border border-primary border-1">
+            <thead>
+                <tr class="text-center">
+                    <th style="width:5%;">#</th>
+                    <th style="width:5%;">AZ</th>
+                    <th style="width:5%;">TIME</th>
+                    <th style="width:75%;">NAME</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for cont in site.data.parade_2024 %}
+                <tr>
+                    <td>{{ cont.order }}</td>
+                    <td>{{ cont.zone }}</td>
+                    <td>{{ cont.time }}</td>
+                <td>{{ cont.name }}</td>
+                {% endfor %}
+            </table>
+        </tbody>
+    </div>
+</div>
