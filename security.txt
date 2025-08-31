@@ -1,0 +1,4 @@
+Contact: mailto:info@oaklandpride.org
+Expires: 2026-12-31T22:26:00Z
+Canonical: https://oaklandprideparade.org/security.txt
+Preferred-Languages: en
