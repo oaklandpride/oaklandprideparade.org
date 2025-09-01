@@ -7,18 +7,120 @@ title: VPANEL
         <form action="" class="form">
             <p>14th Street</p>
             <div class="btn-group form-control">
-                <button type="button" class="btn btn-outline-primary">Block A Support</button>
-                <button type="button" class="btn btn-outline-danger">Block B Support</button>
+                                <button type="button" class="btn btn-outline-primary parade-action" data-block="A">Block A Support</button>
+                                <button type="button" class="btn btn-outline-danger parade-action" data-block="B">Block B Support</button>
             </div>
             <p>clay street</p>
             <div class="btn-group form-control">
-                <button type="button" class="btn btn-outline-warning form-control">Block C Support</button>
-            <button type="button" class="btn btn-outline-info form-control">Block D Support</button>
+                                <button type="button" class="btn btn-outline-warning parade-action form-control" data-block="C">Block C Support</button>
+                                <button type="button" class="btn btn-outline-info parade-action form-control" data-block="D">Block D Support</button>
             </div>
             <p>16th street</p>
             <div class="btn-group form-control">
-                <button type="button" class="btn btn-outline-secondary form-control">Block E Support</button>
+                                <button type="button" class="btn btn-outline-secondary parade-action form-control" data-block="E">Block E Support</button>
+            </div>
+            <hr>
+            <div class="btn-group form-control mb-3">
+                <button type="button" class="btn btn-success parade-task" data-task="start">Signal Parade Start</button>
+                <button type="button" class="btn btn-dark parade-task" data-task="end">Signal Parade End</button>
+                <button type="button" class="btn btn-warning parade-task" data-task="emergency">Send Emergency Alert</button>
+                <button type="button" class="btn btn-primary parade-task" data-task="announce">Announce Next Contingent</button>
+                <button type="button" class="btn btn-info parade-task" data-task="resume">Resume Parade</button>
+            </div>
+                        <div id="parade-status" class="mt-4" style="display:none;">
+                                <div class="alert alert-success" role="alert">
+                                        <span id="parade-status-message"></span>
+                                </div>
+                        </div>
+        </form>
+    </div>
+</div>
+<div class="row mt-4">
+    <div class="col">
+        <form class="form">
+            <h5>Additional Controls</h5>
+            <div class="btn-group form-control mb-3">
+                <button type="button" class="btn btn-outline-success parade-extra" data-extra="weather">Weather Update</button>
+                <button type="button" class="btn btn-outline-danger parade-extra" data-extra="medical">Request Medical Assistance</button>
+                <button type="button" class="btn btn-outline-secondary parade-extra" data-extra="lost">Report Lost Person</button>
+                <button type="button" class="btn btn-outline-warning parade-extra" data-extra="cleanup">Request Cleanup Crew</button>
+                <button type="button" class="btn btn-outline-info parade-extra" data-extra="info">General Info Broadcast</button>
             </div>
         </form>
     </div>
 </div>
+<script>
+document.querySelectorAll('.parade-action').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+        var block = btn.getAttribute('data-block');
+        var msg = 'Activated support for Block ' + block + '!';
+        document.getElementById('parade-status-message').textContent = msg;
+        document.getElementById('parade-status').style.display = 'block';
+        setTimeout(function() {
+            document.getElementById('parade-status').style.display = 'none';
+        }, 2000);
+    });
+});
+
+document.querySelectorAll('.parade-task').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+        var task = btn.getAttribute('data-task');
+        var msg = '';
+        switch(task) {
+            case 'start':
+                msg = 'Parade Start signaled!';
+                break;
+            case 'end':
+                msg = 'Parade End signaled!';
+                break;
+                    case 'emergency':
+                        msg = 'Emergency Alert sent!';
+                        break;
+                    case 'announce':
+                        msg = 'Next Contingent Announced!';
+                        break;
+            case 'resume':
+                msg = 'Parade Resumed!';
+                break;
+            default:
+                msg = 'Task executed!';
+        }
+        document.getElementById('parade-status-message').textContent = msg;
+        document.getElementById('parade-status').style.display = 'block';
+        setTimeout(function() {
+            document.getElementById('parade-status').style.display = 'none';
+        }, 2000);
+    });
+});
+
+document.querySelectorAll('.parade-extra').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+        var extra = btn.getAttribute('data-extra');
+        var msg = '';
+        switch(extra) {
+            case 'weather':
+                msg = 'Weather update sent!';
+                break;
+            case 'medical':
+                msg = 'Medical assistance requested!';
+                break;
+            case 'lost':
+                msg = 'Lost person reported!';
+                break;
+            case 'cleanup':
+                msg = 'Cleanup crew requested!';
+                break;
+            case 'info':
+                msg = 'General info broadcasted!';
+                break;
+            default:
+                msg = 'Action completed!';
+        }
+        document.getElementById('parade-status-message').textContent = msg;
+        document.getElementById('parade-status').style.display = 'block';
+        setTimeout(function() {
+            document.getElementById('parade-status').style.display = 'none';
+        }, 2000);
+    });
+});
+</script>
