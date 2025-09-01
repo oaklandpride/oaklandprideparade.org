@@ -11,10 +11,7 @@ eventhub:
   tickets: https://tickets.eventhub.net/e/oakland-pride-2025-parade-and-festival/tickets?utm_source=affiliate&utm_name=parade.oaklandpride.org&utm_campaign=parade.oaklandpride.org&utm_id=687c1efc13a0427985cb7c110a1e6320
 
 
-
-# Build settings
-plugins:
-  - jekyll-feed
+markdown: kramdown
 
 exclude:
   - .sass-cache/
