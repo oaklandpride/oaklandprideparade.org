@@ -1,23 +1,25 @@
 ---
 layout: contingent
 order: '001'
-zone: A1
-time: '9:00 AM'
+zone: Broadway/21st
+time: '9:30 AM'
 name: Dykes on Bikes
 title: Dykes on Bikes
-category: Nonprofit
+category: 
 marchers: ''
 sound: ''
 permalink: c/yVUi9
-basic_vehicle: 50
+basic_vehicle: ''
 large_vehicle: ''
-description: San Francisco Dykes on Bikes® Women's Motorcycle Contingent is an organization committed to creating a local, national and international community of women motorcyclists and friends of women motorcyclists. Our mission is to support philanthropic endeavors in the lesbian, gay, bisexual, transgender and women's communities, and to reach out to empower a community of diverse women through rides, charity events, Pride events and education.
+description: >-
+  With a roar and a rumble, Dykes on Bikes® leads the way! This iconic, all-women motorcycle contingent has a long history of kicking off Pride parades, serving as a powerful symbol of queer pride, liberation, and empowerment. As a non-profit organization, Dykes on Bikes is dedicated to supporting philanthropic endeavors in the LGBTQ+ and women's communities. They are a fierce and celebrated part of Pride, reminding everyone that this is both a protest and a joyous celebration.
 honor: ''
-email: clara@dykesonbikes.org
-contact: Clara Martinez
-phone: ''
+email: president@dykesonbikes.org
+contact: Kate Brown
+phone: 
 website: ''
 facebook: ''
 instagram: ''
 twitter: ''
 ---
+

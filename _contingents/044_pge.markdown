@@ -1,0 +1,25 @@
+---
+layout: contingent
+order: '044'
+zone: D2
+time: '10:40 AM'
+name: PG&E
+title: PG&E
+category: Sponsor
+marchers: ''
+sound: ''
+permalink: c/r7eXG
+basic_vehicle: ''
+large_vehicle: ''
+description: >-
+  PG&E is committed to building a safe, clean, and reliable energy future for California. With a long-standing dedication to diversity, equity, and inclusion, the company is a strong supporter of the LGBTQ+ community. PG&E is proud to march in the Oakland Pride Parade, celebrating its diverse employees, customers, and the vibrant community of Oakland. The company's commitment to creating a more equitable and inclusive world is reflected in its policies, community partnerships, and a focus on supporting LGBTQ+-owned businesses.
+honor: ''
+email: J5Ld@pge.com
+contact: Jeremy Laurin
+phone: 
+website: ''
+facebook: ''
+instagram: ''
+twitter: ''
+---
+

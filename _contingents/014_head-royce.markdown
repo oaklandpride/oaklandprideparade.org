@@ -1,26 +1,25 @@
 ---
 layout: contingent
 order: '014'
-zone: A2
-time: '10:00 AM'
-name: Head Royce School
+zone: B1
+time: '10:20 AM'
+name: Head Royce
+title: Head Royce
 category: Sponsor
-marchers: '30'
+marchers: ''
 sound: ''
-permalink: c/ItJHZ
+permalink: c/nWCiu
 basic_vehicle: ''
 large_vehicle: ''
 description: >-
-  Head-Royce School is a diverse K–12 community nestled in the Oakland hills
-  that serves families seeking a transformative educational experience. We
-  cultivate lifelong learners who lead with joy, purpose, and compassion, and
-  are well prepared to embrace the challenges and opportunities of the future.
+  Head-Royce is a co-educational K-12 school in Oakland, committed to developing students of character, intellect, and creativity. The school prides itself on its core values of diversity, belonging, and civic engagement, which are integrated into its curriculum and community partnerships. Head-Royce is proud to be a part of the vibrant Oakland community and to support Oakland Pride, celebrating the diversity and inclusion that enriches us all.
 honor: ''
-email: hnguyen@headroyce.org
-contact: Hannah Nguyen (+ Savannah Strong)
-phone: '4086449717'
+email: sstrong@headroyce.org
+contact: Savannah Strong
+phone: 
 website: ''
-facebook: 'https://www.facebook.com/HeadRoyceSchool/'
-instagram: 'https://www.instagram.com/headroyce/'
+facebook: ''
+instagram: ''
 twitter: ''
 ---
+
