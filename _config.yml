@@ -10,7 +10,6 @@ eventhub:
   parade: https://eventhub.net/events/Oakland-Pride-Parade-2024_6056
   tickets: https://tickets.eventhub.net/e/oakland-pride-2025-parade-and-festival/tickets?utm_source=affiliate&utm_name=parade.oaklandpride.org&utm_campaign=parade.oaklandpride.org&utm_id=687c1efc13a0427985cb7c110a1e6320
 
-
 markdown: kramdown
 
 exclude:
@@ -25,10 +24,9 @@ exclude:
 sass:
   load_paths:
     - _sass
-    - vendor/bundle/ruby/3.2.0/gems/bootstrap-5.3.3/assets/stylesheets
     - vendor/bundle/ruby/3.2.0/gems/bootstrap-5.3.5/assets/stylesheets
-    - vendor/bundle/ruby/3.2.2/gems/bootstrap-5.3.3/assets/stylesheets
     - vendor/bundle/ruby/3.2.2/gems/bootstrap-5.3.5/assets/stylesheets
+    - vendor/bundle/ruby/3.3.0/gems/bootstrap-5.3.5/assets/stylesheets
     - vendor/bundle/ruby/3.4.0/gems/bootstrap-5.3.5/assets/stylesheets
 
 collections:
