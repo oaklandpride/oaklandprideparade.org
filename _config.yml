@@ -10,6 +10,11 @@ eventhub:
   parade: https://eventhub.net/events/Oakland-Pride-Parade-2024_6056
   tickets: https://tickets.eventhub.net/e/oakland-pride-2025-parade-and-festival/tickets?utm_source=affiliate&utm_name=parade.oaklandpride.org&utm_campaign=parade.oaklandpride.org&utm_id=687c1efc13a0427985cb7c110a1e6320
 
+maps:
+  festival: https://imagedelivery.net/MvzNvpp4M2t9qtNhV8DSHQ/b689166c-bd07-4356-b158-7f9903cb0c00/public
+  parade: https://imagedelivery.net/MvzNvpp4M2t9qtNhV8DSHQ/8a6109cb-7b84-4639-25f4-329f99d2d500/public
+  assembly: https://imagedelivery.net/MvzNvpp4M2t9qtNhV8DSHQ/c190e8a3-a051-4448-a3ce-ba59b645a700/public
+
 markdown: kramdown
 
 exclude:
