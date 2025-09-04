@@ -6,11 +6,11 @@ time: '10:00'
 name: AC Transit
 title: AC Transit
 category: Sponsor
-marchers: ''
+marchers: '15'
 sound: ''
 permalink: c/BOuAD
-basic_vehicle: ''
-large_vehicle: ''
+basic_vehicle: '1'
+large_vehicle: '1'
 description: >-
   AC Transit is the East Bay's public bus system, connecting communities from Richmond to Fremont and across the Bay to San Francisco. Committed to delivering safe, reliable, and sustainable transit, AC Transit is proud to support Oakland Pride as we all move forward together.
 honor: ''
@@ -22,4 +22,3 @@ facebook: ''
 instagram: ''
 twitter: ''
 ---
-
