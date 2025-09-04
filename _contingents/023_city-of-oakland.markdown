@@ -22,4 +22,12 @@ facebook: ''
 instagram: ''
 twitter: ''
 ---
+Contingent includes:
+
+1. Mayor's Office
+2. Oakland Fire Department
+
+If you would like your department included in the lineup list, please send us an update at chris@oaklandpride.org 
+
+
 
