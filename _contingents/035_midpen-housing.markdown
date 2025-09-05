@@ -9,7 +9,7 @@ category: Nonprofit (National)
 marchers: '25'
 sound: ''
 permalink: c/kNDLX
-basic_vehicle: ''
+basic_vehicle: '1'
 large_vehicle: ''
 description: >-
   At MidPen, our mission is to provide safe, affordable housing of high quality to those in need and to establish stability and opportunity in the lives of our residents. We build communities and change lives. In partnership with our LGBTQ+ Employee Resource Group, we are thrilled to be celebrating in Oakland Pride 2025!

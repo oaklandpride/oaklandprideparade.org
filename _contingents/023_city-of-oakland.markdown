@@ -26,5 +26,6 @@ Contingent includes:
 
 1. Mayor's Office
 2. Oakland Fire Department
+3. Councilmember Rowena Brown
 
 If you would like your department included in the lineup list, please send us an update at chris@oaklandpride.org
