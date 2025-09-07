@@ -1,13 +1,24 @@
 ---
 layout: contingent
-title:
-number: 00
-time:
+order:
 zone:
-name: Template
+time:
+name:
+title: 
+category: 
+marchers: ''
+sound: ''
+permalink: 
+basic_vehicle: ''
+large_vehicle: ''
 description:
-marchers:
-vehicles:
-monitors:
-permalink:
+honor: 
+email:
+contact:
+phone: 
+website: ''
+facebook: ''
+instagram: ''
+twitter: ''
 ---
+
