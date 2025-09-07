@@ -1,0 +1,46 @@
+---
+layout: default
+permalink: /toomuchinfo/
+---
+<div class="row">
+    <div class="col">
+        <ul>
+
+            {% for cont in site.data.parade_2025 %}
+            <li>{{cont.order}} -- {{ cont.name }} -- {{ cont.category }}
+                <ul>
+                    <li>Assembly Zone: {{ cont.zone }}</li>
+                    <li>Assembly Time: {{ cont.time }}</li>
+                    <li>Marchers: {{ cont.marchers }}</li>
+                    {% if cont.basic_vehicle != blank? %}<li>Basic Vehicles: {{ cont.basic_vehicle }}</li>{% endif %}
+                    {% if cont.large_vehicle != blank? %}<li>Large Vehicles: {{ cont.large_vehicle }}</li>{% endif %}
+                    <li>Contact: {{ cont.contact_1 }}</li>
+                </ul>
+            </li>
+           {% endfor %}
+        </ul>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <table class="table table-sm">
+            <thead>
+                <tr class="text-center">
+                    <th style="width:5%;">#</th>
+                    <th style="width:5%;">AZ</th>
+                    <th style="width:5%;">TIME</th>
+                    <th style="width:75%;">NAME</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for cont in site.data.parade_2025 %}
+                <tr>
+                    <td>{{ cont.order }}</td>
+                    <td>{{ cont.zone }}</td>
+                    <td>{{ cont.time }}</td>
+                <td>{{ cont.name }}</td>
+                {% endfor %}
+            </table>
+        </tbody>
+    </div>
+</div>
