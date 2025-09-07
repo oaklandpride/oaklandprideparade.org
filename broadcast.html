@@ -1,12 +1,11 @@
 ---
 layout: default
-title: Parade order
+title: Parade Order
 ---
-
 <div class="row">
   <div class="col">
-    <h1>2024 Parade Broadcast Book</h1>
-    <div class="alert alert-danger text-center">
+    <h1>2025 Parade Broadcast Book</h1>
+    <div class="alert alert-danger text-center d-none">
       <span class="lead fw-bolder">
         This resource will be finalized and available on
         <strong>Saturday, September 6th, 2025</strong>.
@@ -29,7 +28,7 @@ title: Parade order
   </div>
 </div>
 <div class="row row-cols-1">
-  {% for contingent in site.data.parade_2024 %}
+  {% for contingent in site.data.parade_2025 %}
   <div id="contingent_{{contingent.order}}" class="col">
     <div class="border-bottom border-1 border-secondary-subtle-b m-1 p-2">
       <h2>{{contingent.order}} &mdash; {{ contingent.name }}</h2>
