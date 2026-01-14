@@ -1,10 +1,16 @@
-# Oakland Pride Parade Website
+# Oakland Pride Parade Website [ARCHIVED]
+
+> [!IMPORTANT]
+> **PROJECT ARCHIVED:** The nonprofit organization that previously organized the Oakland Pride Parade is dissolving. This repository is preserved as a historical record. Future Oakland Pride events will be managed by the [Oakland LGBTQ Community Center](https://www.oaklandlgbtqcenter.org/).
+
 
 The official website for the Oakland Pride Parade, serving as a central hub for information for all contingents and volunteers. Our mission is to ensure the safe, efficient, and joyous execution of the annual parade by providing all necessary resources in one easy-to-access location.
 
 ## Description
 
-This website, built with **Jekyll** and **Bootstrap**, is designed to streamline the management of the Oakland Pride Parade by offering dedicated sections for our two primary user groups: parade contingents and volunteers. It provides essential details, forms, and updates to facilitate smooth participation and operation on the day of the event.
+This website, built with **Jekyll** and **Bootstrap**, was originally designed to streamline the management of the Oakland Pride Parade. It served as a hub for parade contingents and volunteers, providing essential details, forms, and updates to facilitate the event. 
+
+As of January 2026, the original organizing entity is dissolving, and leadership of future parades has transitioned to the Oakland LGBTQ Community Center.
 
 ## Key Features
 
@@ -78,6 +84,4 @@ We welcome contributions from the community. Please read our `CONTRIBUTING.md` f
 
 ---
 
-## Contact
-
-For questions or feedback, please open an issue in this repository or contact the project maintainers.
+This repository is now archived. For current information regarding Oakland Pride, please visit the [Oakland LGBTQ Community Center](https://www.oaklandlgbtqcenter.org/).
